@@ -21,7 +21,6 @@ string decrypt(string cipher_text,string key){
         int temp;
         if(islower(cipher_text[i])){
             temp=cipher_text[i]-key[i]-1;
-            cout<<temp<<endl;
             if(temp<0){
                 decipher_text+=temp+26+'a';
             }
